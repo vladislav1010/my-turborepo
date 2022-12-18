@@ -7,6 +7,10 @@ interface Props {
   item: ChecklistItem;
 }
 
+/**
+ * $1
+ * CSS: В DOM содержит текст, который не переносится на другую строку.
+ */
 export function ChecklistItem({
   className,
   item,
