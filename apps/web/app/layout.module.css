@@ -1,0 +1,4 @@
+.root {
+  isolation: isolate;
+  color-scheme: var(--color-scheme);
+}
