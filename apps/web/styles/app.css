@@ -1,0 +1,9 @@
+body {
+  font-size: var(--font-size-md);
+  font-family: var(--font-family-sans);
+}
+*,
+::before,
+::after {
+  border-color: var(--border);
+}
