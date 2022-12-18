@@ -1,0 +1,4 @@
+.title {
+  /* $1 What if there is too long `title`? `Cart` `.listItem` or it's ancestors may overflow horizontally. */
+  white-space: nowrap;
+}

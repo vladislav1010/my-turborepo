@@ -1,0 +1,5 @@
+{
+    "toolchains": [],
+    "autoSave": false,
+    "excluded": ["node_modules", ".next", ".vscode"]
+}
