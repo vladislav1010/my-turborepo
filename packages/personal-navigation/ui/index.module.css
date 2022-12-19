@@ -7,5 +7,6 @@
   /* $3 https://github.com/bokand/URLBarSizing */
   width: 100%;
   /* $2 Match against. `.root`'s content may overflow it. */
+  // $4 Я имею представление, какое содержимое будет у `.root`
   overflow: hidden;
 }
