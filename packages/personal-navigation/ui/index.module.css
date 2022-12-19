@@ -1,0 +1,12 @@
+.root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* $1 Match against. Consider different widths. */
+  width: 200px;
+  /* $3 https://github.com/bokand/URLBarSizing */
+  width: 100%;
+  /* $2 Match against. `.root`'s content may overflow it. */
+  // $4 Я имею представление, какое содержимое будет у `.root`
+  overflow: hidden;
+}

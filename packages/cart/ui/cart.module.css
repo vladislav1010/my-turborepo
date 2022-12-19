@@ -1,0 +1,18 @@
+.root {
+  display: grid;
+  /* $1 What if there will be overflow, caused by it's children width? */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* repeat(auto-fit, 200px) */
+  grid-auto-rows: auto;
+}
+
+.lineItem {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.lineItemComponent {
+  flex: 0 0 auto;
+}
